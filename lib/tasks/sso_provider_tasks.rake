@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :sso-provider-engine do
+# task :sso_provider do
 #   # Task goes here
 # end

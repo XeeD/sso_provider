@@ -1,2 +1,4 @@
-module ApplicationHelper
+module SSOProvider
+  module ApplicationHelper
+  end
 end

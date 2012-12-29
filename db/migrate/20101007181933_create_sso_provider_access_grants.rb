@@ -1,6 +1,6 @@
-class CreateAccessGrants < ActiveRecord::Migration
-  def self.up
-    create_table :access_grants do |t|
+class CreateSSOProviderAccessGrants < ActiveRecord::Migration
+  def change
+    create_table :sso_provider_access_grants do |t|
       t.string :code
       t.string :access_token
       t.string :refresh_token
@@ -10,9 +10,5 @@ class CreateAccessGrants < ActiveRecord::Migration
 
       t.timestamps
     end
-  end
-
-  def self.down
-    drop_table :access_grants
   end
 end

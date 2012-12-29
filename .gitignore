@@ -1,4 +1,5 @@
 .bundle
 test/dummy/log/*.log
 test/dummy/tmp/**/*
+test/dummy/tmp/restart.txt
 test/dummy/db/*.sqlite3

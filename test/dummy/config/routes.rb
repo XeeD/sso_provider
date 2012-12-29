@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-
-  mount SsoProviderEngine::Engine => "/sso-provider-engine"
+  mount SSOProvider::Engine => "/"
 end
