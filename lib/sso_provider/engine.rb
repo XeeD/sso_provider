@@ -1,4 +1,5 @@
 require 'omniauth'
+require 'devise'
 #require 'omniauth-google-oauth2'
 
 module SSOProvider

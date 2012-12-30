@@ -1,17 +1,9 @@
-source 'http://rubygems.org'
+source "http://rubygems.org"
 
-gem 'rails', '3.2.8'
-gem 'sqlite3'
+# Declare your gem's dependencies in sso_provider.gemspec.
+# Bundler will treat runtime dependencies like base dependencies, and
+# development dependencies will be added by default to the :development group.
+gemspec
 
-# asset pipeline
-group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier',     '>= 1.0.3'
-end
-
-gem 'jquery-rails'
-
-# gems for omniauth and devise
-gem 'devise'
-gem 'omniauth'
+# jquery-rails is used by the dummy application
+gem "jquery-rails"
