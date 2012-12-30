@@ -5,11 +5,11 @@ require "sso_provider/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "sso-provider"
+  s.name        = "sso_provider"
   s.version     = SSOProvider::VERSION
   s.authors     = ["Lukas Voda", "gautamrege"]
   s.email       = ["xeedus@gmail.com"]
-  s.homepage    = "https://github.com/XeeD/sso-provider/"
+  s.homepage    = "https://github.com/XeeD/sso_provider/"
   s.summary     = "Single Sign On Rails Engine"
   s.description = "Rails Engine Single Sign On provider built using Devise and Omniauth."
 

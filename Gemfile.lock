@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sso-provider (0.0.1)
+    sso_provider (0.0.1)
       devise
       omniauth
       omniauth-google-oauth2
@@ -128,4 +128,4 @@ PLATFORMS
 DEPENDENCIES
   jquery-rails
   sqlite3
-  sso-provider!
+  sso_provider!
